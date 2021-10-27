@@ -1,23 +1,44 @@
-import logo from './logo.svg';
 import './App.css';
+import VisibilityComponent from './components/VisibilityComponent';
+import Text from './components/Text';
+import Image from 'react-bootstrap/Image'
+import profile from './assets/profile.jpeg'
+import Projects from './components/Projects';
+import { Fragment } from 'react';
+import Skills from './components/Skills';
+import Socials from './components/Socials';
 
+import initFontAwesome from './icons/fontAwesomeConfig';
+initFontAwesome();
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+<VisibilityComponent children={<Fragment> <h1  style={{
+    padding:'100px'
+  }} >Hello👋, my name is <b>Roland Matheson</b> <Socials/> </h1> <Image src={profile} roundedCircle/> </Fragment>} />
+
+<VisibilityComponent children={ <h3  style={{
+    padding:'100px',
+  }} >a Jr. Fullstack Web Developer </h3> } />
+
+<VisibilityComponent children={<Text text={`I am a self taught Fullstack Web Developer since April 2021 currently learning the MERN tech stack. In January of 2021 I graduated with a Bachelors in Political Science but decided to learn Software development after wanting to pursue a career as a software engineer. 
+Since then I have focused mainly on Web development but my love of blockchain pushed me to enter several Ethereum hackathons, eventually becoming a finalist with team FIN. Currently I am participating in several hackathons and learning Solidity.
+While im not programming I enjoy travelling, playing card games and listening to 80's Japanese pop hits. 
+`} />} />
+
+<VisibilityComponent children={ <Skills/>} />
+
+
+
+
+ <VisibilityComponent children={ <h3  style={{
+    margin:'50px'
+  }} >Projects </h3> } />
+ <VisibilityComponent children={ <Projects/>} />
+
+
+
     </div>
   );
 }
