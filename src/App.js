@@ -25,8 +25,8 @@ function App() {
     padding:'100px',
   }} >a Jr. Fullstack Web Developer </h3> } />
 
-<VisibilityComponent children={<Text text={`I am a self taught Fullstack Web Developer since April 2021 currently learning the MERN tech stack. In January of 2021 I graduated with a Bachelors in Political Science but decided to learn Software development after wanting to pursue a career as a software engineer. 
-Since then I have focused mainly on Web development but my love of blockchain pushed me to enter several Ethereum hackathons, eventually becoming a finalist with team FIN. Currently I am participating in several hackathons and learning Solidity.
+<VisibilityComponent children={<Text text={`I am a self taught Fullstack Web Developer since April 2021 currently learning the MERN tech stack. In January of 2021 I graduated with a Bachelors in Political Science but decided to learn software development after wanting to pursue a career as a software engineer. 
+Since then I have focused mainly on Web development but my love of blockchain pushed me to enter ETHOnline 2021, the biggest Ethereum Hackathon of the year, and got to the finals with team FIN. Currently I am participating in several hackathons and learning Solidity, MySQL and React Native.
 While im not programming I enjoy travelling, playing card games and listening to 80's Japanese pop hits. 
 `} />} />
 

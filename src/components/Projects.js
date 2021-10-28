@@ -5,9 +5,21 @@ import project2 from '../assets/project2.png'
 import project3 from '../assets/project3.png'
 import project4 from '../assets/project4.png'
 
+import project1gif from '../assets/gif/project1.gif'
+import project2gif from '../assets/gif/project2.gif'
+import project3gif from '../assets/gif/project3.gif'
+import project4gif from '../assets/gif/project4.gif'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
+
 export default function Projects() {
+
+  const [projectGif1, setprojectGif1] = React.useState(false)
+  const [projectGif2, setprojectGif2] = React.useState(false)
+  const [projectGif3, setprojectGif3] = React.useState(false)
+  const [projectGif4, setprojectGif4] = React.useState(false)
+
     return (
 <Container style={{
     margin:'20px'
@@ -16,7 +28,8 @@ export default function Projects() {
       
     <Col  md={6}>
     <Card border="light" >
-  <Card.Img style={{maxHeight:'340px'}} variant="top" src={project1} />
+    <Card.Img style={{maxWidth:'640px', maxHeight:'300px', minWidth:'372px', minHeight:'174px'}} variant="top" src={ projectGif1? project1gif : project1} onMouseEnter={() => setprojectGif1(true)} onMouseLeave={()=> setprojectGif1(false) } />
+ 
   <Card.Body>
     <Card.Title> <b> FIN - Financially Intelligent NFTs</b>{' '} {' '} <br/>
     <a href='https://github.com/Avi-000-Avi/FIN' ><FontAwesomeIcon color='black' icon={['fab', 'github']} size="lg" /></a>
@@ -33,7 +46,8 @@ export default function Projects() {
     </Col>
     <Col  md={6}>
     <Card border="light" >
-  <Card.Img variant="top" src={project2} />
+    <Card.Img style={{maxWidth:'640px', maxHeight:'300px', minWidth:'372px', minHeight:'174px'}} variant="top" src={ projectGif2? project2gif : project2} onMouseEnter={() => setprojectGif2(true)} onMouseLeave={()=> setprojectGif2(false) } />
+ 
   <Card.Body>
     <Card.Title> <b> Bastion Games E Commerce Website </b> {' '}<br/>
 
@@ -54,7 +68,8 @@ export default function Projects() {
   <Row>
   <Col  md={6}>
     <Card border="light" >
-  <Card.Img variant="top" src={project3} />
+    <Card.Img style={{maxWidth:'640px', maxHeight:'300px', minWidth:'372px', minHeight:'174px'}} variant="top" src={ projectGif3? project3gif : project3} onMouseEnter={() => setprojectGif3(true)} onMouseLeave={()=> setprojectGif3(false) } />
+ 
   <Card.Body>
   <Card.Title> <b> Irezumi Hub </b> {' '}<br/>
 
@@ -73,7 +88,8 @@ export default function Projects() {
     </Col>
     <Col  md={6}>
     <Card border="light" >
-  <Card.Img variant="top" src={project4} />
+    <Card.Img style={{maxWidth:'640px', maxHeight:'300px', minWidth:'372px', minHeight:'174px'}} variant="top" src={ projectGif4? project4gif : project4} onMouseEnter={() => setprojectGif4(true)} onMouseLeave={()=> setprojectGif4(false) } />
+ 
   <Card.Body>
   <Card.Title><b>Rolands Crypto Exchange</b> {' '}<br/>
 
