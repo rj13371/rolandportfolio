@@ -16,7 +16,7 @@ export default function VisibilityComponent(props) {
           display: 'block',
           maxWidth: '100%',
           opacity: visible ? 1 : 0.00,
-          transition: 'opacity 3000ms linear',
+          transition: 'opacity 2500ms linear',
         }} >
 
 {props.children}

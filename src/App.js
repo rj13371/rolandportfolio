@@ -7,11 +7,14 @@ import Projects from './components/Projects';
 import { Fragment } from 'react';
 import Skills from './components/Skills';
 import Socials from './components/Socials';
+import { Card } from 'react-bootstrap';
 
 import initFontAwesome from './icons/fontAwesomeConfig';
+import Footer from './components/Footer';
 initFontAwesome();
 function App() {
   return (
+    <Fragment>
     <div className="App">
 
 <VisibilityComponent children={<Fragment> <h1  style={{
@@ -32,14 +35,16 @@ While im not programming I enjoy travelling, playing card games and listening to
 
 
 
- <VisibilityComponent children={ <h3  style={{
+ <VisibilityComponent children={ <Card.Title style={{
     margin:'50px'
-  }} >Projects </h3> } />
+  }} ><b>Projects</b> </Card.Title> } />
  <VisibilityComponent children={ <Projects/>} />
 
 
 
     </div>
+    <Footer/>
+    </Fragment>
   );
 }
 

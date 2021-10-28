@@ -1,14 +1,14 @@
 import React,{Fragment} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Alert,Nav } from 'react-bootstrap'
+import { Alert,Nav, Card } from 'react-bootstrap'
 
 export default function Skills() {
     return (
         <Fragment>
             <div style={{
-    margin:'80px'
+    margin:'100px'
   }}>
-            <h2>Skills</h2>
+          <Card.Title><b>Skills</b> </Card.Title>
 
         <FontAwesomeIcon style={{marginRight:'15px'}} icon={['fab', 'js']} size="lg" />
         <FontAwesomeIcon style={{marginRight:'15px'}} icon={['fab', 'html5']} size="lg" />
