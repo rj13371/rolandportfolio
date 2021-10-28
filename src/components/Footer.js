@@ -8,13 +8,20 @@ export default function Footer() {
   
           <Nav.Item>
             
-          <Nav.Link>©Roland Matheson </Nav.Link>
+          <Nav.Link>Created by Roland Matheson </Nav.Link>
+  
+          </Nav.Item>
+
+
+          <Nav.Item>
+            
+          <Nav.Link>           {' '}          {' '}          {' '} </Nav.Link>
   
           </Nav.Item>
 
           <Nav.Item>
             
-          <Nav.Link>Hosted on Cloudflare and Heroku </Nav.Link>
+          <Nav.Link> Hosted on Cloudflare and Heroku </Nav.Link>
   
           </Nav.Item>
 
