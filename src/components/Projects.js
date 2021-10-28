@@ -15,7 +15,7 @@ export default function Projects() {
   <Row>
       
     <Col xs={6} md={6}>
-    <Card style={{ width: '30rem' }}>
+    <Card border="light" style={{ width: '30rem' }}>
   <Card.Img style={{maxHeight:'230px'}} variant="top" src={project1} />
   <Card.Body>
     <Card.Title>FIN - Financially Intelligent NFTs{' '}
@@ -33,7 +33,7 @@ export default function Projects() {
 </Card>
     </Col>
     <Col xs={6} md={6}>
-    <Card style={{ width: '30rem' }}>
+    <Card border="light" style={{ width: '30rem' }}>
   <Card.Img variant="top" src={project2} />
   <Card.Body>
     <Card.Title>Bastion Games E Commerce Website
