@@ -12,9 +12,10 @@ import project4gif from '../assets/gif/project4.gif'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { LanguageContext } from '../context/LanguageContext';
+import useWindowSize from '../hooks/useWindowSize';
 
 export default function Projects() {
-
+  const size = useWindowSize()
       
       const {t, language} = useContext(LanguageContext)
 
@@ -25,17 +26,15 @@ export default function Projects() {
   const [projectGif4, setprojectGif4] = React.useState(false)
 
     return (
-<Container style={{
-    margin:'20px',
-  }} fluid='xs'>
-<Card.Title style={{
+<Container  fluid='xs'>
+<Card.Title style={size.width<500? {margin:'0px'} : {
     margin:'50px'
   }} > <h3>  <b>{language === 'jp' ? 'プロジェクト' : 'Projects' } </b>  </h3>  </Card.Title> 
 
   <Row>
       
     <Col  md={6}>
-    <Card style={{margin:'40px', maxWidth:'640px', maxHeight:'700px', minWidth:'372px', minHeight:'184px'}} border="light" >
+    <Card style={{ maxWidth:'640px', maxHeight:'700px', minWidth:'372px', minHeight:'184px'}} border="light" >
     <Card.Img style={{maxWidth:'640px', maxHeight:'290px', minWidth:'372px', minHeight:'174px'}} variant="top" src={ projectGif1? project1gif : project1} onMouseEnter={() => setprojectGif1(true)} onMouseLeave={()=> setprojectGif1(false) } />
  
   <Card.Body>
@@ -52,7 +51,7 @@ export default function Projects() {
 </Card>
     </Col>
     <Col  md={6}>
-    <Card style={{margin:'40px',maxWidth:'640px', maxHeight:'700px', minWidth:'372px', minHeight:'174px'}} border="light" >
+    <Card style={{maxWidth:'640px', maxHeight:'700px', minWidth:'372px', minHeight:'174px'}} border="light" >
     <Card.Img style={{maxWidth:'640px', maxHeight:'290px', minWidth:'372px', minHeight:'174px'}} variant="top" src={ projectGif2? project2gif : project2} onMouseEnter={() => setprojectGif2(true)} onMouseLeave={()=> setprojectGif2(false) } />
  
   <Card.Body>
@@ -73,7 +72,7 @@ export default function Projects() {
   </Row>
   <Row>
   <Col  md={6}>
-    <Card style={{margin:'40px',maxWidth:'640px', maxHeight:'700px', minWidth:'372px', minHeight:'174px'}} border="light" >
+    <Card style={{maxWidth:'640px', maxHeight:'700px', minWidth:'372px', minHeight:'174px'}} border="light" >
     <Card.Img style={{maxWidth:'640px', maxHeight:'290px', minWidth:'372px', minHeight:'174px'}} variant="top" src={ projectGif3? project3gif : project3} onMouseEnter={() => setprojectGif3(true)} onMouseLeave={()=> setprojectGif3(false) } />
  
   <Card.Body>
@@ -93,7 +92,7 @@ export default function Projects() {
 </Card>
     </Col>
     <Col  md={6}>
-    <Card style={{margin:'40px',maxWidth:'640px', maxHeight:'700px', minWidth:'372px', minHeight:'174px'}} border="light" >
+    <Card style={{maxWidth:'640px', maxHeight:'700px', minWidth:'372px', minHeight:'174px'}} border="light" >
     <Card.Img style={{maxWidth:'640px', maxHeight:'290px', minWidth:'372px', minHeight:'174px'}} variant="top" src={ projectGif4? project4gif : project4} onMouseEnter={() => setprojectGif4(true)} onMouseLeave={()=> setprojectGif4(false) } />
  
   <Card.Body>
