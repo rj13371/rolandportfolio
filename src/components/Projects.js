@@ -30,19 +30,19 @@ export default function Projects() {
   }} fluid='xs'>
 <Card.Title style={{
     margin:'50px'
-  }} ><b>{language === 'jp' ? 'プロジェクト' : 'Projects' } </b> </Card.Title> 
+  }} > <h3>  <b>{language === 'jp' ? 'プロジェクト' : 'Projects' } </b>  </h3>  </Card.Title> 
 
   <Row>
       
     <Col  md={6}>
-    <Card style={{margin:'40px', maxWidth:'640px', maxHeight:'700px', minWidth:'372px', minHeight:'174px'}} border="light" >
-    <Card.Img style={{maxWidth:'640px', maxHeight:'300px', minWidth:'372px', minHeight:'174px'}} variant="top" src={ projectGif1? project1gif : project1} onMouseEnter={() => setprojectGif1(true)} onMouseLeave={()=> setprojectGif1(false) } />
+    <Card style={{margin:'40px', maxWidth:'640px', maxHeight:'700px', minWidth:'372px', minHeight:'184px'}} border="light" >
+    <Card.Img style={{maxWidth:'640px', maxHeight:'290px', minWidth:'372px', minHeight:'174px'}} variant="top" src={ projectGif1? project1gif : project1} onMouseEnter={() => setprojectGif1(true)} onMouseLeave={()=> setprojectGif1(false) } />
  
   <Card.Body>
-    <Card.Title> <b> FIN - Financially Intelligent NFTs</b>{' '} {' '} <br/>
-    <a href='https://github.com/Avi-000-Avi/FIN' ><FontAwesomeIcon color='black' icon={['fab', 'github']} size="lg" /></a>
-    <a href='https://100cn6kcivad9aivblkmlsb5v93taitcnuua6mc74e9sgcm4v61tvjg.siasky.net/' ><FontAwesomeIcon color='black' icon={'globe'} size="lg" /></a>
-    <a href='https://showcase.ethglobal.com/ethonline2021/fin-financially-intelligent-nfts' > <FontAwesomeIcon color='black' icon={['fab', 'ethereum']} size="lg" /></a>
+    <Card.Title> <h3>  <b> FIN - Financially Intelligent NFTs</b>{' '} {' '} </h3>  
+    <a href='https://github.com/Avi-000-Avi/FIN' ><FontAwesomeIcon style={{marginRight:'30px'}} color='black' icon={['fab', 'github']} size="lg" /></a>
+    <a href='https://100cn6kcivad9aivblkmlsb5v93taitcnuua6mc74e9sgcm4v61tvjg.siasky.net/' ><FontAwesomeIcon style={{marginRight:'30px'}} color='black' icon={'globe'} size="lg" /></a>
+    <a href='https://showcase.ethglobal.com/ethonline2021/fin-financially-intelligent-nfts' ><FontAwesomeIcon color='black' icon={['fab', 'ethereum']} size="lg" /></a>
     </Card.Title>
     <Card.Subtitle> <a href='https://showcase.ethglobal.com/ethonline2021/fin-financially-intelligent-nfts'> {language === 'jp'? 'ETHOnline 2021のファイナリスト🏆': 'ETHOnline Sponsorship Finals 🏆'  } </a> <br/>
     {language === 'jp' ? "世界最大のイーサリアムハッカソンが スポンサーのMoralis、Uniswap、Chainlinkから5000ドルの賞金を獲得し、 React、ethers.js、hardhatを使用してNFTプロトコルのフロントエンドを構築しました。4人のチームでdApp開発を学びました。" : "The Largest Ethereum Hackathon in the World , Won Prize of $5000 from Sponsors Moralis, Uniswap and Chainlink. Built the Frontend for an NFT Protocol using React, ethers.js and hardhat.Learned dApp development with team of 4."}
@@ -53,12 +53,12 @@ export default function Projects() {
     </Col>
     <Col  md={6}>
     <Card style={{margin:'40px',maxWidth:'640px', maxHeight:'700px', minWidth:'372px', minHeight:'174px'}} border="light" >
-    <Card.Img style={{maxWidth:'640px', maxHeight:'300px', minWidth:'372px', minHeight:'174px'}} variant="top" src={ projectGif2? project2gif : project2} onMouseEnter={() => setprojectGif2(true)} onMouseLeave={()=> setprojectGif2(false) } />
+    <Card.Img style={{maxWidth:'640px', maxHeight:'290px', minWidth:'372px', minHeight:'174px'}} variant="top" src={ projectGif2? project2gif : project2} onMouseEnter={() => setprojectGif2(true)} onMouseLeave={()=> setprojectGif2(false) } />
  
   <Card.Body>
-    <Card.Title> <b> Bastion Games E Commerce Website </b> {' '}<br/>
+    <Card.Title> <h3>  <b> Bastion Games E Commerce Website </b> {' '}<br/> </h3>
 
-    <a href='https://github.com/rj13371/mtg-web-store' ><FontAwesomeIcon color='black' icon={['fab', 'github']} size="lg" /></a>
+    <a href='https://github.com/rj13371/mtg-web-store' ><FontAwesomeIcon style={{marginRight:'30px'}} color='black' icon={['fab', 'github']} size="lg" /></a>
     <a href='https://mtgwebstore.herokuapp.com/' ><FontAwesomeIcon color='black' icon={'globe'} size="lg" /></a>
    
 
@@ -74,12 +74,12 @@ export default function Projects() {
   <Row>
   <Col  md={6}>
     <Card style={{margin:'40px',maxWidth:'640px', maxHeight:'700px', minWidth:'372px', minHeight:'174px'}} border="light" >
-    <Card.Img style={{maxWidth:'640px', maxHeight:'300px', minWidth:'372px', minHeight:'174px'}} variant="top" src={ projectGif3? project3gif : project3} onMouseEnter={() => setprojectGif3(true)} onMouseLeave={()=> setprojectGif3(false) } />
+    <Card.Img style={{maxWidth:'640px', maxHeight:'290px', minWidth:'372px', minHeight:'174px'}} variant="top" src={ projectGif3? project3gif : project3} onMouseEnter={() => setprojectGif3(true)} onMouseLeave={()=> setprojectGif3(false) } />
  
   <Card.Body>
-  <Card.Title> <b> Irezumi Hub </b> {' '}<br/>
+  <Card.Title> <h3> <b> Irezumi Hub </b> {' '}<br/> </h3> 
 
-<a href='https://github.com/rj13371/irezumi-hub' ><FontAwesomeIcon color='black' icon={['fab', 'github']} size="lg" /></a>
+<a href='https://github.com/rj13371/irezumi-hub' ><FontAwesomeIcon  style={{marginRight:'30px'}} color='black' icon={['fab', 'github']} size="lg" /></a>
 <a href='https://irezumi-hub.herokuapp.com/tattooShops' ><FontAwesomeIcon color='black' icon={'globe'} size="lg" /></a>
 
 
@@ -94,12 +94,12 @@ export default function Projects() {
     </Col>
     <Col  md={6}>
     <Card style={{margin:'40px',maxWidth:'640px', maxHeight:'700px', minWidth:'372px', minHeight:'174px'}} border="light" >
-    <Card.Img style={{maxWidth:'640px', maxHeight:'300px', minWidth:'372px', minHeight:'174px'}} variant="top" src={ projectGif4? project4gif : project4} onMouseEnter={() => setprojectGif4(true)} onMouseLeave={()=> setprojectGif4(false) } />
+    <Card.Img style={{maxWidth:'640px', maxHeight:'290px', minWidth:'372px', minHeight:'174px'}} variant="top" src={ projectGif4? project4gif : project4} onMouseEnter={() => setprojectGif4(true)} onMouseLeave={()=> setprojectGif4(false) } />
  
   <Card.Body>
-  <Card.Title><b>Rolands Crypto Exchange</b> {' '}<br/>
+  <Card.Title> <h3> <b>Rolands Crypto Exchange</b> {' '}<br/> </h3> 
 
-<a href='https://github.com/rj13371/rolandCryptoExchange' ><FontAwesomeIcon color='black' icon={['fab', 'github']} size="lg" /></a>
+<a href='https://github.com/rj13371/rolandCryptoExchange' ><FontAwesomeIcon style={{marginRight:'30px'}} color='black' icon={['fab', 'github']} size="lg" /></a>
 <a href='https://rolandcryptoexchange.herokuapp.com/' ><FontAwesomeIcon color='black' icon={'globe'} size="lg" /></a>
 
 
