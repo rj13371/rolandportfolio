@@ -30,7 +30,7 @@ function App() {
 
 <VisibilityComponent children={<Fragment> <h1  style={{
     padding:'100px'
-  }} >{t('Hello👋, my name is Roland Matheson')}  <br/> <Socials/> </h1> <Image style={{width:'200px'}} src={profile} roundedCircle/> </Fragment>} />
+  }} >{t('Hello👋, my name is Roland Matheson')}  <br/> <Socials/> </h1> <Image alt='profile picture of Roland' style={{width:'200px'}} src={profile} roundedCircle/> </Fragment>} />
 
 <VisibilityComponent children={ <h3  style={{
     padding:'100px',

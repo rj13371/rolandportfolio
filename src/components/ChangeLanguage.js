@@ -10,8 +10,8 @@ export default function ChangeLanguage() {
 
 <Navbar style={{ maxWidth: '100px' }} fixed="top" variant="light" bg="light">
 <Container>
-{language == 'jp' ? <Button onClick={() => setLanguage("en")} variant="dark">English 🇬🇧</Button> :
-            <Button onClick={() => setLanguage("jp")} variant="dark">日本語 🇯🇵 </Button>
+{language == 'jp' ? <Button type="submit" value="Submit" onClick={() => setLanguage("en")} variant="dark">English 🇬🇧</Button> :
+            <Button type="submit" value="Submit" onClick={() => setLanguage("jp")} variant="dark">日本語 🇯🇵 </Button>
             }
 </Container>
 </Navbar>

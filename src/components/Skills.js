@@ -1,6 +1,6 @@
 import React,{Fragment, useContext} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Alert,Nav, Card } from 'react-bootstrap'
+import {Card } from 'react-bootstrap'
 import { LanguageContext } from '../context/LanguageContext';
 export default function Skills() {
 
