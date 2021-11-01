@@ -5,11 +5,10 @@ import App from './App';
 import { LanguageProvider } from './context/LanguageContext';
 
 ReactDOM.render(
-  <React.StrictMode>
+
     <LanguageProvider>
     <App />
-    </LanguageProvider>
-  </React.StrictMode>,
+    </LanguageProvider>,
   document.getElementById('root')
 );
 
