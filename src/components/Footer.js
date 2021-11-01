@@ -7,12 +7,12 @@ export default function Footer() {
 
 
     return (
-        <Navbar bg="dark" variant="dark" sticky="bottom" >
+        <Navbar style={{color:'white'}} bg="dark" variant="dark" sticky="bottom" >
         <Nav className="justify-content-start">
   
           <Nav.Item>
             
-          <Nav.Link>Created by Roland Matheson </Nav.Link>
+          <Nav.Link style={{color:'white'}} >Created by Roland Matheson </Nav.Link>
   
           </Nav.Item>
 
@@ -20,7 +20,7 @@ export default function Footer() {
 
           <Nav.Item>
             
-          <Nav.Link>Hosted on Cloudflare and Heroku </Nav.Link>
+          <Nav.Link style={{color:'white'}}     >Hosted on Cloudflare and Heroku </Nav.Link>
   
           </Nav.Item>
 
