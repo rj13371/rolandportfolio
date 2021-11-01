@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import { LanguageProvider } from './context/LanguageContext';
+import './bootstrap.min.css';
 
 ReactDOM.render(
 

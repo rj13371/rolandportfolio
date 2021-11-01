@@ -1,7 +1,7 @@
 import React,{useContext} from 'react'
 import { Card, Container, Col, Row } from 'react-bootstrap';
-import project1 from '../assets/project1.png'
-import project2 from '../assets/project2.png'
+import project1 from '../assets/project1.jpeg'
+import project2 from '../assets/project2.jpeg'
 import project3 from '../assets/project3.png'
 import project4 from '../assets/project4.png'
 
