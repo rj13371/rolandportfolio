@@ -37,7 +37,7 @@ function App() {
   }} ><b>{t('a Junior Fullstack Web Developer')} </b> </h2> } />
 
 
-<VisibilityComponent children={<Text text={`I am a self taught Fullstack Web Developer since April 2021 currently learning the MERN tech stack. In January of 2021 I graduated with a Bachelors in Political Science but decided to learn software development after wanting to pursue a career as a software engineer. 
+<VisibilityComponent children={<Text text={`I am a self taught Fullstack Web Developer since April 2021 currently learning the MERN tech stack. In January of 2021 I graduated with a Bachelors in Political Science, decided to learn software development after wanting to pursue a career as a software engineer because of my interest in Web3 and the decentralization of the internet. 
 While im not programming I enjoy travelling, playing card games and listening to 80's Japanese pop hits. 
 `} />} />
 
