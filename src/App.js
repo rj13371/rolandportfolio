@@ -34,7 +34,7 @@ function App() {
 
 <VisibilityComponent children={ <h2  style={{
     padding:'100px',
-  }} ><b>{t('a Junior Fullstack Web Developer')} </b> </h2> } />
+  }} ><b>{t('Fullstack JavaScript Developer')} </b> </h2> } />
 
 
 <VisibilityComponent children={<Text text={`I am a self taught Fullstack Web Developer since April 2021 currently learning the MERN tech stack. In January of 2021 I graduated with a Bachelors in Political Science, decided to learn software development after wanting to pursue a career as a software engineer because of my interest in Web3 and the decentralization of the internet. 

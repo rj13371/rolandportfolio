@@ -22,6 +22,7 @@ export default function Skills() {
         <FontAwesomeIcon style={{marginRight:'30px'}} icon={['fab', 'node-js']} size="lg" />
         <FontAwesomeIcon style={{marginRight:'30px'}} icon={['fab', 'linux']} size="lg" />
         <FontAwesomeIcon style={{marginRight:'30px'}} icon={['fab', 'github']} size="lg" />
+        <FontAwesomeIcon color='black' icon={['fab', 'ethereum']} size="lg" />
 
         </div>
       </Fragment>
