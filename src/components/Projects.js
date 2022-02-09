@@ -93,18 +93,18 @@ export default function Projects() {
         </Col>
         <Col md={6}>
           <Card style={{ maxWidth: '640px', maxHeight: '700px', minWidth: '372px', minHeight: '174px' }} border="light" >
-            <Card.Img alt='frontpage of rolands crypto exchange react app' style={{ maxWidth: '640px', maxHeight: '290px', minWidth: '372px', minHeight: '174px' }} variant="top" src={projectGif4 ? project4gif : project4} onMouseEnter={() => setprojectGif4(true)} onMouseLeave={() => setprojectGif4(false)} />
+            <Card.Img alt='frontpage of donation-DAO' style={{ maxWidth: '640px', maxHeight: '290px', minWidth: '372px', minHeight: '174px' }} variant="top" src={projectGif4 ? project4 : project4} onMouseEnter={() => setprojectGif4(true)} onMouseLeave={() => setprojectGif4(false)} />
 
             <Card.Body>
-              <Card.Title> <a aria-label="website link for rolands crypto exchange react project" href='https://rolandcryptoexchange.herokuapp.com/' > <h3> <b>Rolands Crypto Exchange</b> {' '}<br /> </h3></a>
+              <Card.Title> <a aria-label="website link for donation-DAO" href='https://showcase.ethglobal.com/roadtoweb3/donation-dao' > <h3> <b>Donation-DAO</b> {' '}<br /> </h3></a>
 
-                <a aria-label="github link for rolands crypto exchange react project" href='https://github.com/rj13371/rolandCryptoExchange' ><FontAwesomeIcon style={{ marginRight: '30px' }} color='black' icon={['fab', 'github']} size="lg" /></a>
-                <a aria-label="website link for rolands crypto exchange react project" href='https://rolandcryptoexchange.herokuapp.com/' ><FontAwesomeIcon color='black' icon={'globe'} size="lg" /></a>
+                <a aria-label="github link for donation-DAO" href='https://github.com/rj13371/DonationDAO' ><FontAwesomeIcon style={{ marginRight: '30px' }} color='black' icon={['fab', 'github']} size="lg" /></a>
+                <a aria-label="website link for donation-DAO" href='https://donation-dao.com/' ><FontAwesomeIcon color='black' icon={'globe'} size="lg" /></a>
 
 
               </Card.Title>
               <Card.Subtitle>
-                {language === 'jp' ? "私の初めてのウェブアプリケーションです。Create React Appで構築し、coingecko APIを使って暗号通貨の価格とETHのガス料金を取得しました。Reactの基本と、Reactアプリケーションの構成方法を学びました。" : " My first ever web application. Built with Create React App and using coingecko API to retrieve cryptocurrency prices and ETH gas fees. Learned the basics of React and how to structure React applications. "}
+                {language === 'jp' ? "Donation-DAOは、Web2の検閲を気にすることなく、草の根運動や友人・家族、あるいは自分自身のために資金調達を行いたい人々のための分散型プラットフォームです。フロントエンドでは、ユーザーが募金内容を説明した募金ページを作成し、そのページを公開することで、dAppで簡単に募金を受け取れるようウォレットを設定することができます。IPFS、Moralis、Polygon、Material UI、Reactを使用して構築しました。RoadtoWeb3 Hackathon 2022のためにソロで構築。" : " Donation-DAO is a decentralized platform for people who wish to fundraise for grassroots causes, friends/family or themselves without worrying about Web2 censorship. The Frontend allows users to create Donation Pages with descriptions on what they are fundraising for, then it will be publicly posted with their wallet setup to receive donations on the dApp easily. Built using IPFS, Moralis, Polygon, Material UI and React. Built solo for RoadtoWeb3 Hackathon 2022."}
 
               </Card.Subtitle>
             </Card.Body>
