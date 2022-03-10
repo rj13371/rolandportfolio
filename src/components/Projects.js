@@ -70,6 +70,7 @@ export default function Projects() {
                 <a
                   aria-label="website link for FIN project"
                   target="_blank"
+                  rel="noreferrer"
                   href="https://100cn6kcivad9aivblkmlsb5v93taitcnuua6mc74e9sgcm4v61tvjg.siasky.net/"
                 >
                   {" "}
@@ -81,6 +82,7 @@ export default function Projects() {
                 <a
                   aria-label="github link for FIN project"
                   target="_blank"
+                  rel="noreferrer"
                   href="https://github.com/Avi-000-Avi/FIN"
                 >
                   <FontAwesomeIcon
@@ -93,6 +95,7 @@ export default function Projects() {
                 <a
                   aria-label="website link for FIN project"
                   target="_blank"
+                  rel="noreferrer"
                   href="https://100cn6kcivad9aivblkmlsb5v93taitcnuua6mc74e9sgcm4v61tvjg.siasky.net/"
                 >
                   <FontAwesomeIcon
@@ -105,6 +108,7 @@ export default function Projects() {
                 <a
                   aria-label="website link for ETHONLINE 2021"
                   target="_blank"
+                  rel="noreferrer"
                   href="https://showcase.ethglobal.com/ethonline2021/fin-financially-intelligent-nfts"
                 >
                   <FontAwesomeIcon
@@ -160,6 +164,7 @@ export default function Projects() {
                 <a
                   aria-label="website link for Bastion Games e commerce website project"
                   target="_blank"
+                  rel="noreferrer"
                   href="https://mtgwebstore.herokuapp.com/"
                 >
                   <h3>
@@ -170,6 +175,7 @@ export default function Projects() {
                 <a
                   aria-label="github link for Bastion Games e commerce website project"
                   target="_blank"
+                  rel="noreferrer"
                   href="https://github.com/rj13371/mtg-web-store"
                 >
                   <FontAwesomeIcon
@@ -182,6 +188,7 @@ export default function Projects() {
                 <a
                   aria-label="website link for Bastion Games e commerce website project"
                   target="_blank"
+                  rel="noreferrer"
                   href="https://mtgwebstore.herokuapp.com/"
                 >
                   <FontAwesomeIcon color="black" icon={"globe"} size="lg" />
@@ -227,6 +234,7 @@ export default function Projects() {
                 <a
                   aria-label="website link for will3"
                   target="_blank"
+                  rel="noreferrer"
                   href="https://will3.surge.sh/"
                 >
                   {" "}
@@ -238,6 +246,7 @@ export default function Projects() {
                 <a
                   aria-label="github link for will3"
                   target="_blank"
+                  rel="noreferrer"
                   href="https://github.com/rj13371/will3"
                 >
                   <FontAwesomeIcon
@@ -250,6 +259,7 @@ export default function Projects() {
                 <a
                   aria-label="website link for will3"
                   target="_blank"
+                  rel="noreferrer"
                   href="https://www.youtube.com/watch?v=UpJHjKE8p-o"
                 >
                   <FontAwesomeIcon
@@ -297,6 +307,7 @@ export default function Projects() {
                 <a
                   aria-label="website link for donation-DAO"
                   target="_blank"
+                  rel="noreferrer"
                   href="https://showcase.ethglobal.com/roadtoweb3/donation-dao"
                 >
                   {" "}
@@ -308,6 +319,7 @@ export default function Projects() {
                 <a
                   aria-label="github link for donation-DAO"
                   target="_blank"
+                  rel="noreferrer"
                   href="https://github.com/rj13371/DonationDAO"
                 >
                   <FontAwesomeIcon
@@ -320,6 +332,7 @@ export default function Projects() {
                 <a
                   aria-label="website link for donation-DAO"
                   target="_blank"
+                  rel="noreferrer"
                   href="https://donation-dao.com/"
                 >
                   <FontAwesomeIcon color="black" icon={"globe"} size="lg" />
