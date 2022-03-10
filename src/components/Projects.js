@@ -116,7 +116,6 @@ export default function Projects() {
               </Card.Title>
               <Card.Subtitle>
                 {" "}
-                target="_blank"
                 <a href="https://showcase.ethglobal.com/ethonline2021/fin-financially-intelligent-nfts">
                   {" "}
                   {language === "jp"
