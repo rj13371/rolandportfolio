@@ -43,9 +43,9 @@ export default function Projects() {
               maxWidth: "640px",
               maxHeight: "700px",
               minWidth: "372px",
-              minHeight: "184px",
+              minHeight: "174px",
             }}
-            border="light"
+            border="secondary"
           >
             <Card.Img
               alt="frontpage of Financially Intelligent NFTs react app"
@@ -167,8 +167,9 @@ export default function Projects() {
               maxHeight: "700px",
               minWidth: "372px",
               minHeight: "174px",
+              marginBottom: '10px'
             }}
-            border="light"
+            border="secondary"
           >
             <Card.Img
               alt="frontpage of Bastion Games E commerce MERN app"
@@ -264,12 +265,13 @@ export default function Projects() {
               maxWidth: "640px",
               maxHeight: "700px",
               minWidth: "372px",
-              minHeight: "174px",
+              minHeight: "574px",
+              marginBottom: '10px'
             }}
-            border="light"
+            border="secondary"
           >
             <Card.Img
-              alt="frontpage of irezumi hub express app"
+              alt="frontpage of will3 app"
               style={{
                 maxWidth: "640px",
                 maxHeight: "290px",
@@ -364,8 +366,9 @@ export default function Projects() {
               maxHeight: "700px",
               minWidth: "372px",
               minHeight: "174px",
+              marginBottom: '10px'
             }}
-            border="light"
+            border='secondary'
           >
             <Card.Img
               alt="frontpage of donation-DAO"
