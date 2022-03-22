@@ -6,8 +6,8 @@ export default function Footer() {
 
 
     return (
-        <Navbar bg="dark" variant="dark" sticky="bottom" >
-            <Nav className="justify-content-start">
+        <Navbar style={{ justifyContent: 'center' }} bg="dark" variant="dark" sticky="bottom" >
+            <Nav >
 
                 <Nav.Item>
 

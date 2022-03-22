@@ -32,7 +32,7 @@ function App() {
                   padding: "100px",
                 }}
               >
-                {t("Hello👋, my name is Roland Matheson")} <br /> <Socials />{" "}
+                {t("Hello👋, my name is Roland Matheson")}
               </h1>{" "}
               <Image
                 loading="lazy"

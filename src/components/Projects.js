@@ -6,7 +6,6 @@ import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.png";
 
 import project1gif from "../assets/gif/project1.gif";
-import project2gif from "../assets/gif/project2.gif";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { LanguageContext } from "../context/LanguageContext";
@@ -18,9 +17,6 @@ export default function Projects() {
   const { language } = useContext(LanguageContext);
 
   const [projectGif1, setprojectGif1] = React.useState(false);
-  const [projectGif2, setprojectGif2] = React.useState(false);
-  const [projectGif3, setprojectGif3] = React.useState(false);
-  const [projectGif4, setprojectGif4] = React.useState(false);
 
   return (
     <Container fluid="xs">
@@ -29,8 +25,8 @@ export default function Projects() {
           size.width < 500
             ? { margin: "0px" }
             : {
-                margin: "50px",
-              }
+              margin: "50px",
+            }
         }
       >
         {" "}
@@ -89,7 +85,7 @@ export default function Projects() {
                     style={{ marginRight: "30px" }}
                     color="black"
                     icon={["fab", "github"]}
-                    size="lg"
+                    size='2x'
                   />
                 </a>
                 <a
@@ -102,7 +98,7 @@ export default function Projects() {
                     style={{ marginRight: "30px" }}
                     color="black"
                     icon={"globe"}
-                    size="lg"
+                    size='2x'
                   />
                 </a>
                 <a
@@ -114,13 +110,14 @@ export default function Projects() {
                   <FontAwesomeIcon
                     color="black"
                     icon={["fab", "ethereum"]}
-                    size="lg"
+                    size='2x'
                   />
                 </a>
               </Card.Title>
               <Card.Subtitle>
                 {" "}
-                <a href="https://showcase.ethglobal.com/ethonline2021/fin-financially-intelligent-nfts">
+                <a target="_blank"
+                  rel="noreferrer" href="https://showcase.ethglobal.com/ethonline2021/fin-financially-intelligent-nfts">
                   {" "}
                   {language === "jp"
                     ? "ETHOnline 2021のファイナリスト🏆"
@@ -153,9 +150,7 @@ export default function Projects() {
                 minHeight: "174px",
               }}
               variant="top"
-              src={projectGif2 ? project2gif : project2}
-              onMouseEnter={() => setprojectGif2(true)}
-              onMouseLeave={() => setprojectGif2(false)}
+              src={project2}
             />
 
             <Card.Body>
@@ -182,7 +177,7 @@ export default function Projects() {
                     style={{ marginRight: "30px" }}
                     color="black"
                     icon={["fab", "github"]}
-                    size="lg"
+                    size='2x'
                   />
                 </a>
                 <a
@@ -191,7 +186,7 @@ export default function Projects() {
                   rel="noreferrer"
                   href="https://mtgwebstore.herokuapp.com/"
                 >
-                  <FontAwesomeIcon color="black" icon={"globe"} size="lg" />
+                  <FontAwesomeIcon color="black" icon={"globe"} size='2x' />
                 </a>
               </Card.Title>
               <Card.Subtitle>
@@ -223,9 +218,7 @@ export default function Projects() {
                 minHeight: "174px",
               }}
               variant="top"
-              src={projectGif3 ? project3 : project3}
-              onMouseEnter={() => setprojectGif3(true)}
-              onMouseLeave={() => setprojectGif3(false)}
+              src={project3}
             />
 
             <Card.Body>
@@ -253,7 +246,7 @@ export default function Projects() {
                     style={{ marginRight: "30px" }}
                     color="black"
                     icon={["fab", "github"]}
-                    size="lg"
+                    size='2x'
                   />
                 </a>
                 <a
@@ -265,7 +258,7 @@ export default function Projects() {
                   <FontAwesomeIcon
                     color="black"
                     icon={["fab", "youtube"]}
-                    size="lg"
+                    size='2x'
                   />
                 </a>
               </Card.Title>
@@ -296,9 +289,7 @@ export default function Projects() {
                 minHeight: "174px",
               }}
               variant="top"
-              src={projectGif4 ? project4 : project4}
-              onMouseEnter={() => setprojectGif4(true)}
-              onMouseLeave={() => setprojectGif4(false)}
+              src={project4}
             />
 
             <Card.Body>
@@ -326,7 +317,7 @@ export default function Projects() {
                     style={{ marginRight: "30px" }}
                     color="black"
                     icon={["fab", "github"]}
-                    size="lg"
+                    size='2x'
                   />
                 </a>
                 <a
@@ -335,7 +326,7 @@ export default function Projects() {
                   rel="noreferrer"
                   href="https://donation-dao.com/"
                 >
-                  <FontAwesomeIcon color="black" icon={"globe"} size="lg" />
+                  <FontAwesomeIcon color="black" icon={"globe"} size='2x' />
                 </a>
               </Card.Title>
               <Card.Subtitle>
