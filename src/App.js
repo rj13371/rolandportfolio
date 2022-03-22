@@ -67,8 +67,6 @@ While im not programming I enjoy travelling, playing card games and listening to
           }
         />
 
-        <VisibilityComponent children={<Skills />} />
-
         <VisibilityComponent children={<Projects />} />
       </div>
       <Footer />

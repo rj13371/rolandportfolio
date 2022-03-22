@@ -3,10 +3,8 @@ import { LanguageContext } from "../context/LanguageContext";
 import { Card } from "react-bootstrap";
 import resume from "../assets/gif/resume.pdf";
 
-export default function Text(props) {
-    //import { LanguageContext } from '../context/LanguageContext';
+export default function Text() {
     const { t, language } = useContext(LanguageContext);
-    //{t('About')}
     return (
         <Card
             border="light"

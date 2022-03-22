@@ -75,6 +75,34 @@ export default function Projects() {
                     <b> FIN - Financially Intelligent NFTs</b>{" "}
                   </h3>{" "}
                 </a>
+                <h4>
+                  {" "}
+                  <b> Tech Stack</b>  <FontAwesomeIcon
+                    style={{ marginRight: "15px" }}
+                    icon={["fab", "js"]}
+                    size='sm'
+                  />
+                  <FontAwesomeIcon
+                    style={{ marginRight: "15px" }}
+                    icon={["fab", "html5"]}
+                    size='sm'
+                  />
+                  <FontAwesomeIcon
+                    style={{ marginRight: "15px" }}
+                    icon={["fab", "css3"]}
+                    size='sm'
+                  />
+                  <FontAwesomeIcon
+                    style={{ marginRight: "15px" }}
+                    icon={["fab", "react"]}
+                    size='sm'
+                  />
+                  <FontAwesomeIcon
+                    style={{ marginRight: "15px" }}
+                    icon={["fab", "ethereum"]}
+                    size='sm'
+                  />{" "}
+                </h4>{" "}
                 <a
                   aria-label="github link for FIN project"
                   target="_blank"
@@ -128,6 +156,7 @@ export default function Projects() {
                   ? "1000人以上が参加した世界最大のイーサリアムハッカソンで、スポンサーのMoralis、Uniswap、Chainlinkから5000ドルの賞金を獲得しました。FINは、ユーザーが、最大利益または最大損失の価格パラメータに基づいて自動的に売られる暗号通貨のポジションを購入するためのプラットフォームです。Decentralizd FinanceとNFTの力を組み合わせています。React、ethers.js、hardhatを使用してフロントエンドを構築しました。4人のチームでdApp開発を学びました。"
                   : "The Largest Ethereum Hackathon in the World with over 1000 entrants , Won Prize of $5000 from Sponsors Moralis, Uniswap and Chainlink. FIN is a platform for users to purchase positions on cryptocurrencies that are automated to sell based on a max profit or stop loss price parameter. Combines the power of Decentralizd Finance along with NFTs. Built the Frontend using React, ethers.js and hardhat. Learned dApp development with team of 4."}
               </Card.Subtitle>
+
             </Card.Body>
           </Card>
         </Col>
@@ -167,6 +196,36 @@ export default function Projects() {
                     <b> Bastion Games E Commerce Website </b> <br />{" "}
                   </h3>{" "}
                 </a>
+
+                <h4>
+                  {" "}
+                  <b> Tech Stack</b>  <FontAwesomeIcon
+                    style={{ marginRight: "15px" }}
+                    icon={["fab", "js"]}
+                    size='sm'
+                  />
+                  <FontAwesomeIcon
+                    style={{ marginRight: "15px" }}
+                    icon={["fab", "html5"]}
+                    size='sm'
+                  />
+                  <FontAwesomeIcon
+                    style={{ marginRight: "15px" }}
+                    icon={["fab", "css3"]}
+                    size='sm'
+                  />
+                  <FontAwesomeIcon
+                    style={{ marginRight: "15px" }}
+                    icon={["fab", "react"]}
+                    size='sm'
+                  />
+                  <FontAwesomeIcon
+                    style={{ marginRight: "15px" }}
+                    icon={["fab", "node-js"]}
+                    size='sm'
+                  />{" "}
+                </h4>{" "}
+
                 <a
                   aria-label="github link for Bastion Games e commerce website project"
                   target="_blank"
@@ -236,6 +295,34 @@ export default function Projects() {
                     <b> Will 3 </b> <br />{" "}
                   </h3>{" "}
                 </a>
+                <h4>
+                  {" "}
+                  <b> Tech Stack</b>  <FontAwesomeIcon
+                    style={{ marginRight: "15px" }}
+                    icon={["fab", "js"]}
+                    size='sm'
+                  />
+                  <FontAwesomeIcon
+                    style={{ marginRight: "15px" }}
+                    icon={["fab", "html5"]}
+                    size='sm'
+                  />
+                  <FontAwesomeIcon
+                    style={{ marginRight: "15px" }}
+                    icon={["fab", "css3"]}
+                    size='sm'
+                  />
+                  <FontAwesomeIcon
+                    style={{ marginRight: "15px" }}
+                    icon={["fab", "react"]}
+                    size='sm'
+                  />
+                  <FontAwesomeIcon
+                    style={{ marginRight: "15px" }}
+                    icon={["fab", "ethereum"]}
+                    size='sm'
+                  />{" "}
+                </h4>{" "}
                 <a
                   aria-label="github link for will3"
                   target="_blank"
@@ -291,7 +378,6 @@ export default function Projects() {
               variant="top"
               src={project4}
             />
-
             <Card.Body>
               <Card.Title>
                 {" "}
@@ -307,6 +393,34 @@ export default function Projects() {
                     <b>Donation-DAO</b> <br />{" "}
                   </h3>
                 </a>
+                <h4>
+                  {" "}
+                  <b> Tech Stack</b>  <FontAwesomeIcon
+                    style={{ marginRight: "15px" }}
+                    icon={["fab", "js"]}
+                    size='sm'
+                  />
+                  <FontAwesomeIcon
+                    style={{ marginRight: "15px" }}
+                    icon={["fab", "html5"]}
+                    size='sm'
+                  />
+                  <FontAwesomeIcon
+                    style={{ marginRight: "15px" }}
+                    icon={["fab", "css3"]}
+                    size='sm'
+                  />
+                  <FontAwesomeIcon
+                    style={{ marginRight: "15px" }}
+                    icon={["fab", "react"]}
+                    size='sm'
+                  />
+                  <FontAwesomeIcon
+                    style={{ marginRight: "15px" }}
+                    icon={["fab", "ethereum"]}
+                    size='sm'
+                  />{" "}
+                </h4>{" "}
                 <a
                   aria-label="github link for donation-DAO"
                   target="_blank"
