@@ -7,8 +7,6 @@ import Image from "react-bootstrap/Image";
 import profile from "./assets/profile.jpeg";
 import Projects from "./components/Projects";
 import { Fragment } from "react";
-import Skills from "./components/Skills";
-import Socials from "./components/Socials";
 import initFontAwesome from "./icons/fontAwesomeConfig";
 import Footer from "./components/Footer";
 import { LanguageContext } from "./context/LanguageContext";
