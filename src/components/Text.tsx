@@ -3,7 +3,7 @@ import { LanguageContext } from "../context/LanguageContext";
 import { Card } from "react-bootstrap";
 import resume from "../assets/gif/resume.pdf";
 
-export default function Text() {
+export default function Text():JSX.Element {
     const { t, language } = useContext(LanguageContext);
     return (
         <Card

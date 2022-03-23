@@ -11,7 +11,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { LanguageContext } from "../context/LanguageContext";
 import useWindowSize from "../hooks/useWindowSize";
 
-export default function Projects() {
+export default function Projects():JSX.Element {
   const size = useWindowSize();
 
   const { language } = useContext(LanguageContext);
@@ -19,7 +19,7 @@ export default function Projects() {
   const [projectGif1, setprojectGif1] = React.useState(false);
 
   return (
-    <Container fluid="xs">
+    <Container fluid="sm">
       <Card.Title
         style={
           size.width < 500

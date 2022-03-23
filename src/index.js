@@ -7,9 +7,9 @@ import './bootstrap.min.css';
 
 ReactDOM.render(
 
-    <LanguageProvider>
+  <LanguageProvider>
     <App />
-    </LanguageProvider>,
+  </LanguageProvider>,
   document.getElementById('root')
 );
 

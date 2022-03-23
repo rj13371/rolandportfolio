@@ -2,11 +2,10 @@ import React from 'react'
 import { Nav, Navbar } from 'react-bootstrap'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-export default function Footer() {
-
+export default function Footer():JSX.Element {
 
     return (
-        <Navbar style={{ justifyContent: 'center' }} bg="dark" variant="dark" sticky="bottom" >
+        <Navbar style={{ justifyContent: 'center' }} bg="dark" variant="dark" sticky="top" >
             <Nav >
 
                 <Nav.Item>
