@@ -37,7 +37,7 @@ export default function Projects(): JSX.Element {
       </Card.Title>
 
       <Row>
-        <Col md={6}>
+        <Col style={{ padding: '5%' }} md={6}>
           <Card
             style={{
               maxWidth: '640px',
@@ -163,7 +163,7 @@ export default function Projects(): JSX.Element {
             </Card.Body>
           </Card>
         </Col>
-        <Col md={6}>
+        <Col style={{ padding: '5%' }} md={6}>
           <Card
             style={{
               maxWidth: '640px',
@@ -261,7 +261,7 @@ export default function Projects(): JSX.Element {
         </Col>
       </Row>
       <Row>
-        <Col md={6}>
+        <Col style={{ padding: '5%' }} md={6}>
           <Card
             style={{
               maxWidth: '640px',
@@ -362,7 +362,7 @@ export default function Projects(): JSX.Element {
             </Card.Body>
           </Card>
         </Col>
-        <Col md={6}>
+        <Col style={{ padding: '5%' }} md={6}>
           <Card
             style={{
               maxWidth: '640px',
