@@ -53,7 +53,7 @@ export default function Projects(): JSX.Element {
                 maxWidth: '640px',
                 maxHeight: '290px',
                 minWidth: '372px',
-                minHeight: '300px',
+                minHeight: '190px',
               }}
               variant="top"
               src={projectGif1 ? project1gif : project1}
@@ -180,7 +180,7 @@ export default function Projects(): JSX.Element {
                 maxWidth: '640px',
                 maxHeight: '290px',
                 minWidth: '372px',
-                minHeight: '300px',
+                minHeight: '190px',
               }}
               variant="top"
               src={project2}
@@ -278,7 +278,7 @@ export default function Projects(): JSX.Element {
                 maxWidth: '640px',
                 maxHeight: '290px',
                 minWidth: '372px',
-                minHeight: '300px',
+                minHeight: '190px',
               }}
               variant="top"
               src={project3}
@@ -354,7 +354,7 @@ export default function Projects(): JSX.Element {
                   />
                 </a>
               </Card.Title>
-              <Card.Subtitle>
+              <Card.Subtitle style={{ padding: 20 }}>
                 {language === 'jp'
                   ? 'Will3は、スマートコントラクトの集合体で、終活のための信頼できない遺言執行人として機能します。あなたの死後、あらかじめ決められた資産をあなたの指定した支援者に分配します。AVAX Moralis Hackathon 2022のために@yambo_ethと@gige_ethと一緒に作りました。React、Solidity、Antd、Scaffold ETH、AVAXチェーンで作られました。'
                   : ' Will3 is a collection of smart contracts that acts as a trustless executor for your end-of-life estate planning. It disburses predetermined assets to your designated benefactors in the event of your death. Built for AVAX Moralis Hackathon 2022 with @yambo_eth and @ginge_eth. Made with React, Solidity, Antd, Scaffold ETH and AVAX chain.  '}
@@ -379,7 +379,7 @@ export default function Projects(): JSX.Element {
                 maxWidth: '640px',
                 maxHeight: '290px',
                 minWidth: '372px',
-                minHeight: '300px',
+                minHeight: '190px',
               }}
               variant="top"
               src={project4}
