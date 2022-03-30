@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-export default function Socials() {
+export default function Socials(): JSX.Element {
   return (
     <Fragment>
       <a

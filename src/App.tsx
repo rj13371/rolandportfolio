@@ -1,7 +1,7 @@
 import "./App.css";
 import React, { useContext } from "react";
-import VisibilityComponent from "./components/VisibilityComponent";
-import ChangeLanguage from "./components/ChangeLanguage";
+import VisibilityComponent from "./utils/VisibilityComponent";
+import ChangeLanguage from "./utils/ChangeLanguage";
 import Text from "./components/Text";
 import Image from "react-bootstrap/Image";
 import profile from "./assets/profile.jpeg";
