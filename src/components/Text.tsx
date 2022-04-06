@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import { LanguageContext } from "../context/LanguageContext";
 import { Card } from "react-bootstrap";
-import resume from "../assets/gif/resume.pdf";
 
 export default function Text():JSX.Element {
     const { t, language } = useContext(LanguageContext);
@@ -31,7 +30,7 @@ export default function Text():JSX.Element {
                     rolandmathesondev@gmail.com{" "}
                 </a>{" "}
                 <br />
-                <a href={resume} download>
+                <a href={process.env.PUBLIC_URL + '/assets/resume/resume.pdf'} download>
                     {" "}
                     {language === "jp" ? "履歴書をダウンロード" : "Download Resume"}{" "}
                 </a>{" "}

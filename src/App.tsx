@@ -4,7 +4,6 @@ import VisibilityComponent from "./utils/VisibilityComponent";
 import ChangeLanguage from "./utils/ChangeLanguage";
 import Text from "./components/Text";
 import Image from "react-bootstrap/Image";
-import profile from "./assets/profile.jpeg";
 import Projects from "./components/Projects";
 import { Fragment } from "react";
 import initFontAwesome from "./icons/fontAwesomeConfig";
@@ -33,9 +32,9 @@ function App():JSX.Element {
                 {t("Hello👋, my name is Roland Matheson")}
               </h1>{" "}
               <Image
-                style={profile ? { width: "200px" } : { display: "none" }}
+                style={{ width: "200px" }}
                 alt="profile picture of Roland"
-                src={profile}
+                src={process.env.PUBLIC_URL + '/images/profile.png'}
                 roundedCircle
               />{" "}
             </Fragment>

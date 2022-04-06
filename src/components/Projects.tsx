@@ -1,12 +1,5 @@
 import React, { useContext } from 'react'
 import { Card, Container, Col, Row } from 'react-bootstrap'
-import project1 from '../assets/project1.jpeg'
-import project2 from '../assets/project2.jpeg'
-import project3 from '../assets/project3.png'
-import project4 from '../assets/project4.png'
-
-import project1gif from '../assets/gif/project1.gif'
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { LanguageContext } from '../context/LanguageContext'
 import useWindowSize from '../hooks/useWindowSize'
@@ -15,8 +8,6 @@ export default function Projects(): JSX.Element {
   const size = useWindowSize()
 
   const { language } = useContext(LanguageContext)
-
-  const [projectGif1, setprojectGif1] = React.useState(false)
 
   return (
     <Container fluid="sm">
@@ -49,6 +40,7 @@ export default function Projects(): JSX.Element {
           >
             <Card.Img
               alt="frontpage of Financially Intelligent NFTs react app"
+              loading="lazy"
               style={{
                 maxWidth: '640px',
                 maxHeight: '290px',
@@ -56,9 +48,7 @@ export default function Projects(): JSX.Element {
                 minHeight: '190px',
               }}
               variant="top"
-              src={projectGif1 ? project1gif : project1}
-              onMouseEnter={() => setprojectGif1(true)}
-              onMouseLeave={() => setprojectGif1(false)}
+              src={process.env.PUBLIC_URL + '/assets/project1.jpeg'}
             />
 
             <Card.Body>
@@ -176,6 +166,7 @@ export default function Projects(): JSX.Element {
           >
             <Card.Img
               alt="frontpage of Bastion Games E commerce MERN app"
+              loading="lazy"
               style={{
                 maxWidth: '640px',
                 maxHeight: '290px',
@@ -183,7 +174,7 @@ export default function Projects(): JSX.Element {
                 minHeight: '190px',
               }}
               variant="top"
-              src={project2}
+              src={process.env.PUBLIC_URL + '/assets/project2.jpeg'}
             />
 
             <Card.Body>
@@ -274,6 +265,7 @@ export default function Projects(): JSX.Element {
           >
             <Card.Img
               alt="frontpage of will3 app"
+              loading="lazy"
               style={{
                 maxWidth: '640px',
                 maxHeight: '290px',
@@ -281,7 +273,7 @@ export default function Projects(): JSX.Element {
                 minHeight: '190px',
               }}
               variant="top"
-              src={project3}
+              src={process.env.PUBLIC_URL + '/assets/project3.png'}
             />
 
             <Card.Body>
@@ -375,6 +367,7 @@ export default function Projects(): JSX.Element {
           >
             <Card.Img
               alt="frontpage of donation-DAO"
+              loading="lazy"
               style={{
                 maxWidth: '640px',
                 maxHeight: '290px',
@@ -382,7 +375,7 @@ export default function Projects(): JSX.Element {
                 minHeight: '190px',
               }}
               variant="top"
-              src={project4}
+              src={process.env.PUBLIC_URL + '/assets/project4.png'}
             />
             <Card.Body>
               <Card.Title>
