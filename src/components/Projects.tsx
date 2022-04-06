@@ -267,7 +267,7 @@ export default function Projects(): JSX.Element {
               maxWidth: '640px',
               maxHeight: '700px',
               minWidth: '372px',
-              minHeight: '574px',
+              minHeight: '575px',
               marginBottom: '10px',
             }}
             border="secondary"
@@ -368,7 +368,7 @@ export default function Projects(): JSX.Element {
               maxWidth: '640px',
               maxHeight: '700px',
               minWidth: '372px',
-              minHeight: '300px',
+              minHeight: '575px',
               marginBottom: '10px',
             }}
             border="secondary"
