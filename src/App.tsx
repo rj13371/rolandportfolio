@@ -33,7 +33,6 @@ function App():JSX.Element {
                 {t("Hello👋, my name is Roland Matheson")}
               </h1>{" "}
               <Image
-                loading="lazy"
                 style={profile ? { width: "200px" } : { display: "none" }}
                 alt="profile picture of Roland"
                 src={profile}
