@@ -57,7 +57,7 @@ export default function Projects(): JSX.Element {
                   aria-label="website link for FIN project"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://100cn6kcivad9aivblkmlsb5v93taitcnuua6mc74e9sgcm4v61tvjg.siasky.net/"
+                  href="https://showcase.ethglobal.com/ethonline2021/fin-financially-intelligent-nfts"
                 >
                   {' '}
                   <h3>
@@ -111,7 +111,7 @@ export default function Projects(): JSX.Element {
                   aria-label="website link for FIN project"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://100cn6kcivad9aivblkmlsb5v93taitcnuua6mc74e9sgcm4v61tvjg.siasky.net/"
+                  href="https://showcase.ethglobal.com/ethonline2021/fin-financially-intelligent-nfts"
                 >
                   <FontAwesomeIcon
                     style={{ marginRight: '30px' }}
