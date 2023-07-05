@@ -57,7 +57,7 @@ export default function Projects(): JSX.Element {
                   aria-label="website link for FIN project"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://showcase.ethglobal.com/ethonline2021/fin-financially-intelligent-nfts"
+                  href="https://showcase.ethglobal.com/"
                 >
                   {' '}
                   <h3>
